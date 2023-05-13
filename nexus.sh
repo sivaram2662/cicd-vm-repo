@@ -1,4 +1,3 @@
-
 #!/bin/bash
 sudo yum install wget -y
 yum install java-1.8.0 -y
