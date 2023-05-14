@@ -7,6 +7,7 @@ sudo apt-get update
 sudo apt-get install filebeat
 sudo sed -i 's/  enabled: false/  enabled: true/g' /etc/filebeat/filebeat.yml
 sudo systemctl enable filebeat.service
+# sudo systemctl restart filebeat.service
 #Tomcat installation
 sudo apt install openjdk-11-jdk -y
 cd /opt

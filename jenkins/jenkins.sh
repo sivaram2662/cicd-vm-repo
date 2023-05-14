@@ -11,7 +11,7 @@ systemctl start jenkins
 systemctl enable jenkins
 systemctl status jenkins 
 cd /opt
-wget https://dlcdn.apache.org/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.tar.gz
-tar -xvzf apache-maven-3.9.2-bin.tar.gz
-rm -rf apache-maven-3.9.2-bin.tar.gz
-mv apache-maven-3.9.2 maven
+wget https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.tar.gz
+tar -xvzf apache-maven-3.9.1-bin.tar.gz
+ln -s /opt/apache-maven-3.9.1 maven
+ln -s /opt/maven/bin/mvn /usr/bin/mvn 
