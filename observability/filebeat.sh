@@ -6,6 +6,7 @@ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee 
 sudo apt-get update
 sudo apt-get install filebeat
 sudo sed -i 's/  enabled: false/  enabled: true/g' /etc/filebeat/filebeat.yml
+sudo systemctl start filebeat.service
 sudo systemctl enable filebeat.service
 # sudo systemctl restart filebeat.service
 #Tomcat installation
