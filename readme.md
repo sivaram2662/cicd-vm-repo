@@ -1,7 +1,9 @@
 filebeat sg 
 ============
   22--myip
+
   8080---myip
+  
   5044---to attach to the elasticserch sg 
 
 
