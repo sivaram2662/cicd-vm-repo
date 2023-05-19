@@ -9,7 +9,9 @@ filebeat sg
 elasticseach sg
 ================
 22------myip
+
 5601-----myip
+
 9200------to attach to the filebeat sg
 
 
@@ -18,6 +20,7 @@ elasticseach sg
 node exporter-sg
 =================
 22-----myip
+
 9100---to attach to the prometheus sg
 
 
@@ -26,6 +29,9 @@ node exporter-sg
 grafan-proemtheus-sg
 =====================
 22---myip
+
 3000---myip
+
 9090---myip
+
 9090----to attach to the node exporter sg 
